@@ -1,0 +1,38 @@
+/* IMPOSTAZIONI GENERALI */
+
+body {
+  background-image: url('assets/img/sfondo.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* HEADER */
+
+#head {
+  background: linear-gradient(45deg, rgb(5, 92, 119), rgb(4, 125, 161));
+
+}
+
+#head p {
+  color: white;
+}
+
+#head a {
+  text-decoration: none;
+}
+
+/* MAIN */
+
+span {
+  color: #630c5e;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
