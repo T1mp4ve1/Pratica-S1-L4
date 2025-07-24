@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
 
 body {
+background-image: url('../img/sfondo.png');
   margin: 5%;
   font-family: "Roboto", sans-serif;
-
+  font-weight: 500;
 }
 
 /* HEADER */
@@ -54,6 +55,19 @@ span {
 .icona1 {
   background-color: gray;
   color: white;
+  padding: 1%;
+}
+
+iframe {
+  width: 100%;
+}
+
+#tag {
+  color: black;
+  background-color: rgb(196, 195, 195);
+  border-radius: 5px;
+  border: solid 1px gray;
+  padding: 1px;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
