@@ -1,11 +1,11 @@
 /* IMPOSTAZIONI GENERALI */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-background-image: url('../img/sfondo.png');
+  background-image: url('../img/sfondo.png');
   margin: 5%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
@@ -42,6 +42,7 @@ background-image: url('../img/sfondo.png');
 }
 
 span {
+  font-weight: 600;
   color: #630c5e;
 }
 
@@ -61,26 +62,39 @@ span {
 
 iframe {
   width: 100%;
+  border-radius: 10px;
 }
 
 #tag {
+  font-weight: 400;
   color: black;
-  background-color: rgb(196, 195, 195);
+  background-color: rgb(228, 226, 226);
   border-radius: 5px;
   border: solid 1px gray;
   padding: 1px;
 }
 
+.tool {
+  color: rgb(81, 148, 236);
+}
+
 /* ELEMENTI NEL MAIN - ARTICLE */
+
+aside a {
+  font-weight: 600;
+  color: rgb(81, 148, 236);
+}
 
 /* TABELLE */
 
 table {
-   border-collapse: collapse;
+  border-collapse: collapse;
   width: 100%;
+  border-bottom: solid 2px rgb(81, 148, 236);
 }
 
-th, td {
+th,
+td {
   padding: 12px;
   text-align: center;
 }
@@ -95,15 +109,75 @@ tr:nth-child(even) {
   border-top: solid 1px rgb(156, 156, 156);
 }
 
+#capti {
+  font-style: italic;
+}
 
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
 
+#ema {
+  background-color: rgb(228, 226, 226);
+  padding: 5%;
+  margin-top: 5%;
+}
+
+#email-input {
+  text-align: center;
+}
+
+form input {
+  height: 30px;
+  border: 0;
+  border-bottom: 1px;
+  border-bottom-style: dashed;
+}
+
+#art-1 {
+  background-color: rgb(228, 226, 226);
+  padding: 5%;
+  margin-bottom: 5%;
+  border: solid 1px rgb(199, 197, 197);
+}
+
+#art-2 {
+  background-color: rgb(228, 226, 226);
+  padding: 5%;
+  margin-bottom: 5%;
+  border: solid 1px rgb(199, 197, 197);
+}
+
+#art-3 {
+  background-color: rgb(228, 226, 226);
+  padding: 5%;
+  border: solid 1px rgb(199, 197, 197);
+}
+
+.cent {
+  text-align: center;
+}
+
+input[type="submit"] {
+  border: 0;
+  background-color: #3498db;
+  color: white;
+}
+
+.dataright {
+  text-align: right;
+}
+
 /* FOOTER */
 
 #footer {
-  background: linear-gradient(45deg, rgb(5, 92, 119), rgb(4, 125, 161));
+  color: white;
+  background: linear-gradient(to top, rgb(1, 41, 53), rgb(2, 103, 134));
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
+  text-align: center;
+  padding: 3%;
 }
+ footer a {
+  color: #d11fc8;
+ }

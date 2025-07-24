@@ -30,7 +30,7 @@
     </div>
   </header>
 
-  <main>
+  <main
     <div id="main">
       <div id="dfg">
         <section-1>
@@ -66,6 +66,7 @@
             </p>
 
             <table>
+              <caption id="capti"><strong>Diffusione del CSS</strong></caption>
               <thead>
                 <tr>
                   <th>Anno</th>
@@ -102,11 +103,12 @@
               </tbody>
             </table>
 
-            <p>Un test di validazione potrà essere fatto tramite <a href="https://jigsaw.w3.org/css-validator/>"
-                title="tool inline"><span>il tool online</span></a> dedicato allo scopo. Una volta ottimizzato il
+            <p>Un test di validazione potrà essere fatto tramite <a class="tool"
+                href="https://jigsaw.w3.org/css-validator/>" title="tool inline"><span class="tool">il tool
+                  online</span></a> dedicato allo scopo. Una volta ottimizzato il
               tutto,
               avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
-            <iframe width="500" height="400" src="https://www.youtube.com/embed/dvOvHXruEDM?si=ftdJ0rlmSlP0MZgm"
+            <iframe width="500" height="200" src="https://www.youtube.com/embed/dvOvHXruEDM?si=ftdJ0rlmSlP0MZgm"
               title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -116,21 +118,23 @@
         <aside>
           <div id="aside">
 
-            <div id="email">
-              <h1>NOVITA'</h1>
+            <div id="ema">
+              <h1 class="cent">NOVITA'</h1>
               <P>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</P>
-              <form action="submit">
-                <input type="email" id="email" name="email" required placeholder="Inserishi tua email...">
-                <input type="submit" value="Iscriviti!">
+              <div id="email-input">
+                <form action="submit">
+                  <input type="email" name="email" placeholder="Inserishi tua email...">
+                  <input type="submit" value="Iscriviti!">
+              </div>
               </form>
             </div>
-
+            <h1 class="cent">Articoli correlati</h1>
             <div id="art-1">
               <a href="javascript:void(0)">
                 <P>Validare il codice HTML</P>
               </a>
               <p><i class="fas fa-tag"></i> Categoria: develop</p>
-              <p><i class="fas fa-calendar-day"></i> Data: 18-9-2020</p>
+              <p class="dataright"><i class="fas fa-calendar-day"></i> Data: 18-9-2020</p>
             </div>
 
             <div id="art-2">
@@ -138,7 +142,7 @@
                 <P>Correggere la sintassi</P>
               </a>
               <p><i class="fas fa-tag"></i> Categoria: develop</p>
-              <p><i class="fas fa-calendar-day"></i> Data: 16-9-2020</p>
+              <p class="dataright"><i class="fas fa-calendar-day"></i> Data: 16-9-2020</p>
             </div>
 
             <div id="art-3">
@@ -146,7 +150,7 @@
                 <P>Meno Kb nella pagina</P>
               </a>
               <p><i class="fas fa-tag"></i> Categoria: ottimizzazione</p>
-              <p><i class="fas fa-calendar-day"></i> Data: 30-9-2020</p>
+              <p class="dataright"><i class="fas fa-calendar-day"></i> Data: 30-9-2020</p>
             </div>
           </div>
         </aside>
@@ -160,7 +164,7 @@
         <p>Blog Epicode ©2021</p>
         <p>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA
           00112233.
-          <a href="mailto:info@epicode.school" title="nostra email">info@epicode.school</a>
+          <a href="mailto:info@epicode.school" title="nostra email"><strong>info@epicode.school</strong></a>
         </p>
       </div>
     </div>
