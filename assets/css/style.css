@@ -4,15 +4,18 @@
 body {
   margin: 5%;
   font-family: "Roboto", sans-serif;
-  /* background-image: url('assets/img/sfondo.png'); */
-}
 
+}
 
 /* HEADER */
 
 #head {
-  background: linear-gradient(45deg, rgb(5, 92, 119), rgb(4, 125, 161));
+  background: linear-gradient(10deg, rgb(4, 66, 85), rgb(22, 150, 189));
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  border-radius: 5px;
+  Padding-bottom: 7%;
+  Padding-top: 7%;
 }
 
 #head p {
@@ -24,8 +27,7 @@ body {
 }
 
 #head img {
-  width: 80%;
-
+  width: 60%;
 }
 
 
@@ -34,6 +36,7 @@ body {
 #main {
   background-color: white;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
 }
 
 span {
@@ -66,4 +69,5 @@ span {
 #footer {
   background: linear-gradient(45deg, rgb(5, 92, 119), rgb(4, 125, 161));
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
 }
