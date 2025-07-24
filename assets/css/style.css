@@ -1,16 +1,16 @@
 /* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
 
 body {
-  background-image: url('assets/img/sfondo.png');
-  background-size: cover;
-  background-position: center;
+  margin: 5%;
+  font-family: "Roboto", sans-serif;
 }
 
 /* HEADER */
 
 #head {
   background: linear-gradient(45deg, rgb(5, 92, 119), rgb(4, 125, 161));
-
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 #head p {
@@ -21,10 +21,34 @@ body {
   text-decoration: none;
 }
 
+#head img {
+  width: 80%;
+
+}
+
+
 /* MAIN */
+
+#main {
+  background-color: white;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
 
 span {
   color: #630c5e;
+}
+
+#dfg {
+  margin: 5%;
+}
+
+#fgrey {
+  color: gray;
+}
+
+.icona1 {
+  background-color: gray;
+  color: white;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -36,3 +60,8 @@ span {
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+
+#footer {
+  background: linear-gradient(45deg, rgb(5, 92, 119), rgb(4, 125, 161));
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
